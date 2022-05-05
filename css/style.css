@@ -1,0 +1,26 @@
+.mainhead{
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+  font-size:36px;
+}
+.navbar{
+	text-align: center;
+	background-image: url("navbar.png");
+}
+.index{
+	background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+.picture{
+	top: "40px";
+	left: "500px";
+}
+.picturegrid{
+  text-align:center;
+}
+header{
+	text-decoration:underline;
+}
+.section{
+	background-color:#99ccff;
+}

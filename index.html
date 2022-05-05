@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">		</script>
+		<script src="js/fairyDustCursor.js">
+		</script>
+    <meta charset="utf-8">
+    <title>Math Project!</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+<script> 
+	window.onload=function(){
+	  fairyDustCursor();
+    document.getElementById("my_audio").play();
+  }
+		
+	$(document).ready(function(){
+		$(".picture1").mouseenter(function(){
+			$(".picture1").animate({
+				height:'300px',
+				width:'300px'
+			});
+		});
+		$(".picture1").mouseleave(function(){
+			$(".picture1").animate({
+				height:'250px',
+				width:'250px'
+			});
+		});
+				$(".picture2").mouseenter(function(){
+			$(".picture2").animate({
+				height:'300px',
+				width:'300px'
+			});
+		});
+		$(".picture2").mouseleave(function(){
+			$(".picture2").animate({
+				height:'250px',
+				width:'250px'
+			});
+		});
+				$(".picture3").mouseenter(function(){
+			$(".picture3").animate({
+				height:'300px',
+				width:'300px'
+			});
+		});
+		$(".picture3").mouseleave(function(){
+			$(".picture3").animate({
+				height:'250px',
+				width:'250px'
+			});
+		});
+				$(".picture4").mouseenter(function(){
+			$(".picture4").animate({
+				height:'300px',
+				width:'300px'
+			});
+		});
+		$(".picture4").mouseleave(function(){
+			$(".picture4").animate({
+				height:'250px',
+				width:'250px'
+			});
+		});
+				$(".picture5").mouseenter(function(){
+			$(".picture5").animate({
+				height:'300px',
+				width:'300px'
+			});
+		});
+		$(".picture5").mouseleave(function(){
+			$(".picture5").animate({
+				height:'250px',
+				width:'250px'
+			});
+		});
+	});
+</script> 
+  </head>
+  <body class="index">
+    <header class="mainhead" style="font-size:36px;"><h1><b>Welcome to the <em>math project!</em></b></h1></header>
+    <br>
+		<section>
+			<article style="text-align: center; background-color:#99ccff; width:700px; margin:auto;">
+				<header>
+					How to use this <span 
+					style="color: blue;font-size: 25px;text-shadow: 2px 2px 5px black;">EPIC</span> site!
+				</header>
+				<p>
+					This Website is meant to teach you <br>
+					everything you could
+					want to know about:<br> Logarithmics, Conics, and the
+					Binomial Theorem.
+				</p>
+				<p>
+					Click one of the icons below to go to the page for that subject!<br>Enjoy the site!
+					
+					
+				</p>
+				
+			</article>
+      <div class="picturegrid">
+			  <a href="Binomial_Theorem.html"><img src="images/Blaise-Pascal.png" class="picture1" width="250px" length="250px"></a>
+        <a href="Conics.html"><img src="images/Conics.png" class="picture2" width="250px" length="250px"></a>
+        <a href="Logs.html"><img src="images/Logarithm.png" class="picture3" width="250px" length="250px"></a>
+      </div>
+      <div class="picturegrid">
+        <a href="Cool_Stuff.html"><img src="images/penguin.png" class="picture4" width="250px" length="250px"></a>
+        <a href="Darfur.html"><img src="images/darfur.png" class="picture5" width="250px" length="250px"></a>
+      </div>
+			
+		</section>
+		<audio src="sound/Faded.mp3" id="my_audio" autoplay="autoplay"></audio>
+  </body>
+</html>
